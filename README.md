@@ -1,24 +1,13 @@
-# nolto_admin
+# Nolto Admin
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 구현할 기능 목록
+- [ ] 로그인 페이지
+- [ ] 피드 조회 페이지
+    - [ ] 텍스트로 검색 기능
+    - [ ] 피드 상세 페이지 이동
+        - [ ] 수정
+        - [ ] 삭제
+- [ ] 댓글 조회 페이지
+    - [ ] 삭제
+- [ ] 회원 조회 페이지
+    - [ ] 삭제
