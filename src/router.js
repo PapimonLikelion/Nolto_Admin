@@ -1,10 +1,11 @@
 import { createWebHistory, createRouter } from "vue-router";
+import Login from "./components/Login.vue";
 
 const routes = [
-    // {
-    //     path: "/경로",
-    //     component: import 해온 컴포넌트,
-    // }
+    {
+        path: "/login",
+        component: Login,
+    },
 ]
 
 const router = createRouter({
