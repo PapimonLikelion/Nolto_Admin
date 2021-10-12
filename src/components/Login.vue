@@ -1,22 +1,24 @@
 <template>
-    <img class="container mt-5" src="../assets/nolto.png" alt="" srcset="" style="width: 350px;">
-    <h5 class="container mt-4">Welcome To Nolto Admin</h5>
-    <div class="container mt-5 userInfo">
-        <div class="input-group mb-3" style="width: 350px;">
-            <span class="input-group-text" id="inputGroup-sizing-default" style="width: 55px;">ID</span>
-            <input v-model="id" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    <div class="loginWindow">
+        <img class="container mt-5" src="../assets/nolto.png" alt="" srcset="" style="width: 350px;">
+        <h5 class="container mt-4">Welcome To Nolto Admin</h5>
+        <div class="container mt-5 userInfo">
+            <div class="input-group mb-3" style="width: 350px;">
+                <span class="input-group-text" id="inputGroup-sizing-default" style="width: 55px;">ID</span>
+                <input v-model="id" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="input-group mb-3" style="width: 350px;">
+                <span class="input-group-text" id="inputGroup-sizing-default" style="width: 55px">PW</span>
+                <input v-model="password" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
         </div>
-        <div class="input-group mb-3" style="width: 350px;">
-            <span class="input-group-text" id="inputGroup-sizing-default" style="width: 55px">PW</span>
-            <input v-model="password" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-        </div>
-    </div>
-    <button @click="login" type="button" class="btn btn-outline-secondary" style="width: 350px;">Login</button>
+        <button @click="login" type="button" class="btn btn-outline-secondary" style="width: 350px;">Login</button>
 
-    <div class="loginFailedModal" v-if="loginFailedModalShow == true">
-        <h5>ID, PW가 일치하지 않습니다.</h5>
-        <p>잠시후에 다시 시도해주세요</p>
-        <button @click="loginFailedModalClose">확인</button>
+        <div class="loginFailedModal" v-if="loginFailedModalShow == true">
+            <h5>ID, PW가 일치하지 않습니다.</h5>
+            <p>잠시후에 다시 시도해주세요</p>
+            <button @click="loginFailedModalClose">확인</button>
+        </div>
     </div>
 </template>
 
@@ -39,7 +41,7 @@ export default {
                 password: this.password
             }).then((result) => {
                 this.$store.commit('loginAsAdmin', result.data);
-                this.$router.push('/admin')
+                this.$router.push('/admin/feeds')
             }).catch(() => {
                 this.loginFailed();
             })
@@ -71,5 +73,13 @@ export default {
     border-radius: 10px;
     padding: 30px;
     color: white;
+    width: 350px;
+}
+
+.loginWindow {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 </style>

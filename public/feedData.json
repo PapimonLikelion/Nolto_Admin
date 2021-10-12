@@ -1,0 +1,132 @@
+[
+    {
+        "author": {
+            "id": 20,
+            "nickname": "seovalue",
+            "imageUrl": "https://avatars.githubusercontent.com/u/48412963?v=4"
+        },
+        "id": 24,
+        "title": "보고 또 보고 🐸",
+        "content": "보고 또 보고는 취준생, 학생을 위한 반복 학습 장려 서비스입니다.\n면접 준비는 보고 또 보고 😎\n",
+        "step": "COMPLETE",
+        "sos": false,
+        "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/db2c3f81db6e4fd4ae08c6a2411d012c.png"
+    },
+    {
+        "author": {
+            "id": 25,
+            "nickname": "sihyung92",
+            "imageUrl": "https://avatars.githubusercontent.com/u/51393021?v=4"
+        },
+        "id": 25,
+        "title": "15분회고 스터디 프로젝트",
+        "content": "스터디를 편하게 하기 위한 프로젝트예요! 서버가 내려가서 죽었어요 ㅠ\nJPA로 포팅해주실 분 구합니다!\n사진은 제 백신예약 사진이에요",
+        "step": "PROGRESS",
+        "sos": true,
+        "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/87288ec7f9d644d4ac6091c39222a015.png"
+    },
+    {
+        "author": {
+            "id": 7,
+            "nickname": "zigsong",
+            "imageUrl": "https://dksykemwl00pf.cloudfront.net/f8fb8ee6d00e43a29989fccbab228559.png"
+        },
+        "id": 3,
+        "title": "아진짜요? 토이게임",
+        "content": "2020년에 p5js와 ml로 만든 프로젝트입니다\n제가 팀장이었어요\n저만 일했어요\n우테코에서는 함께 일해서 행복해요!",
+        "step": "PROGRESS",
+        "sos": false,
+        "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/8c76a083179b4e3b8e1171048e3ae026.png"
+    },
+    {
+        "author": {
+            "id": 14,
+            "nickname": "gracefulBrown",
+            "imageUrl": "https://avatars.githubusercontent.com/u/46308949?v=4"
+        },
+        "id": 19,
+        "title": "학습로그 서비스 - prolog",
+        "content": "학습로그 프로젝트 :) ",
+        "step": "COMPLETE",
+        "sos": false,
+        "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/U8DS18SOXC0V1931V9.png"
+    },
+    {
+        "author": {
+            "id": 3,
+            "nickname": "포모",
+            "imageUrl": "https://dksykemwl00pf.cloudfront.net/8ac5dc7ebf824754b8ad61e203d33ebe.PNG"
+        },
+        "id": 10,
+        "title": "포모의 횡단보도/신호등 탐지 프로그램",
+        "content": "시각 장애인의 안전한 보행을 위한 횡단보도/신호등 탐지 프로그램\n\n\n📚 개발 배경\n\n대중교통 이용의 불편함 [출처 : 유튜브 MBCNEWS]\n대중교통, 특히 버스의 경우 타고자 하는 버스가 오는지 안 오는지 확실하게 판단하기 힘들다. (ex.버스 탑승을 위해 평균 20~30분을 기다리는 시각장애인들, 잘못된 버스를 타는 경우도 흔함)\n\n시각 장애인의 눈이 되어 그들의 보행을 돕는 안내견 [출처 : 웰페어 뉴스]\n안내견 탑승 및 출입 거부는 위법행위임에도 불구하고 여전히 안내견에 대한 불편한 인식이 산재한다. (ex. 대중교통 탑승 거부, 식품접객업소 출입 거부 등등)\n\n\n📝 개발 목적\n\n안내견이나 기존의 시각 장애인 보조 서비스가 있음에도 불구하고, 실제 시각장애인들의 보행에 어려움이 많았다. 이를 개선하기 위해 음성 안내 서비스 '시선(視先, 먼저 보다)'을 고안하였다.\n\n'시선'은 영상 처리를 활용하여 객체를 탐지하고, 음성으로 안내하는 서비스이다.\n이를 통해 시각장애인들의 안전한 보행을 돕는 것을 목표로 한다.",
+        "step": "COMPLETE",
+        "sos": true,
+        "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/154f2e37868b4ba59494fc93076a7a0c.jpg"
+    },
+    {
+        "author": {
+            "id": 24,
+            "nickname": "sunhpark42",
+            "imageUrl": "https://avatars.githubusercontent.com/u/67677561?v=4"
+        },
+        "id": 26,
+        "title": "술 추천 및 리뷰 서비스, '주절주절'",
+        "content": "술 알고 마시자! 알고 마시면 더 맛있는 술! 당신을 위한 술을 추천해드립니다.\n\n편의점에서 처음 보는 술을 봤을때, 어떤맛인지 궁금할 땐? 아 오늘 와인이 마시고 싶은데 내 취향에 맞는 와인이 궁금할 땐?\n\n바로, 주절주절!",
+        "step": "COMPLETE",
+        "sos": false,
+        "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/ee4e5f13e66b4fad9b26b1462b4321d1.png"
+    },
+    {
+        "author": {
+            "id": 1,
+            "nickname": "조엘",
+            "imageUrl": "https://avatars.githubusercontent.com/u/61370901?v=4"
+        },
+        "id": 1,
+        "title": "조엘의 웹 호스팅",
+        "content": "개발자들이 HTML, CSS, JS 파일을 첨부하면 하나의 페이지를 만들어주는 토이 프로젝트를 진행했어요!\n\n사용자는 로그인 후 하나의 HTML 파일, 그리고 이를 꾸미는 CSS, JS 파일을 첨부하여 하나의 페이지를 받아볼 수 있어요!\n\n많은 관심 부탁드려요 🎉🎉",
+        "step": "COMPLETE",
+        "sos": false,
+        "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/4dd8d7c45a3644f286f9b0b2b03a1581.png"
+    },
+    {
+        "author": {
+            "id": 31,
+            "nickname": "Junroot",
+            "imageUrl": "https://avatars.githubusercontent.com/u/4648244?v=4"
+        },
+        "id": 27,
+        "title": "Babble",
+        "content": "키워드를 기반으로 한 빠른 게임 팀 매칭 서비스입니다.\n\n함께 게임할 사람이 필요한 사용자들이 키워드를 통해 빠르게 팀을 찾고, 게임을 할 수 있습니다.",
+        "step": "PROGRESS",
+        "sos": false,
+        "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/1a83f427096742798d7e38ed2ac8f06f.png"
+    },
+    {
+        "author": {
+            "id": 5,
+            "nickname": "아마쮜",
+            "imageUrl": "https://dksykemwl00pf.cloudfront.net/fef2d999745c4ad2ad4311b8676ae769.jpeg"
+        },
+        "id": 16,
+        "title": "마찌의 일상생활 소리 분류 및 알림 앱",
+        "content": "# 소리를 보다 Soundee\n\n청각 장애인을 위한 딥러닝을 이용한 일상생활 소리 분류 및 알림 애플리케이션\n> 💻 2020 IT Media Engineering CapstoneDesign Project\n\n## 👋 Introduction\n### 기획의도\n\n사물 인터넷이 활성화되어 생활에 많은 부분들이 편리해졌지만, 청각장애인은 이 편리함에 소외된 것이 현실이다. \n소리를 듣지 못하는 농인들은 냉장고를 오래 열어놨을 시 발생하는 경보음, 잊어버리고 끄지 못한 드라이기, 물소리 등의 소리를 인지하지 못한다. 농인에게도 이를 감지하고 인식할 수 있는 시스템이 필요하다.\n\n이를 해결하기 위해 본 프로젝트는 가정에서 발생하는 소리를 인지하여 분류하여 현재 발생한 소리에 대한 정보를 알려주며 소리 정보에 대한 통계 서비스를 제공하는 애플리케이션을 기획하였다. 이를 통해 농인이 인지하지 못하는 위험과 낭비를 미리 예방하여, 농인에게 좀 더 안전하고 편리한 생활을 제공하고자 한다.\n\n### 작품소개\n\n무지향성 마이크를 통해 일상 소리를 감지한다. PC에 연결한 마이크로 수집한 음향 데이터를 서버에 송신하고, 서버는 수신한 소리를 딥러닝을 기반으로 한 음향 예측 알고리즘을 통해 예측 결과를 안드로이드 요청에 따라 기기에 송신한다. 안드로이드 기기는 수신한 데이터를 푸시알림과 통계 등 다양한 방법으로 제공하여 청각장애인을 위한 서비스를 제공한다.\n\n본 프로젝트로 사회가 생각해보지 못한 청각장애인의 일상생활의 불편함에 대한 문제를 제기하여 이에 대한 관심과 해결방안의 마련을 도모한다. 더불어 앞으로의 4차 산업 기술의 발전이 비장애인의 편리함뿐만이 아닌, 장애인의 접근성을 고려해야한다는 사회적 인식을 확산시키는데 도움이 될 것이라 예상한다.\n\n## 🧱 Server Architecture\n### ✔️ Android - Server\n![soundee 프로젝트 구조 최종 003](https://user-images.githubusercontent.com/43840561/97020968-31805c80-158d-11eb-821b-3748a5a2b2c0.jpeg)\n\n### ✔️ PC - Server - Android for Real-time Sound Classification\n![soundee 프로젝트 구조 최종 002](https://user-images.githubusercontent.com/43840561/97009956-bcf2f100-157f-11eb-8101-08be6a8a71bd.jpeg)\n녹음 프로그램 Soundee Recorder와 어플리케이션을 동시에 실행 시킬 때, 어플리케이션에서는 5초 마다 서버에 요청을 보낸다. 서버는 요청받은 시간부터 5초 전까지의 데이터를 조회하여 데이터가 있는 경우, 현재 소리가 추론하는 class에 대하여 유의미한 소리임을 판단한다. 데이터가 없는 경우, 현재 소리가 추론하는 class에 대하여 무의미한 소리임을 나타낸다. 이에 어플리케이션에서는 실시간으로 나는 소리 class를 파악할 수 있다. 클라이언트는 해당 소리를 받아 class 별로 팝업 알림을 띄워 사용자에게 소리를 알려준다.\n\nSoundee Recorder와 어플리케이션 각각 5초 단위로 데이터 삽입과 조회가 이루어지기 때문에 실시간으로 발생하는 소리 정보를 얻어낼 수 있다.\n\n## 🗄 Table Doc\n<img alt=\"테이블 명세서\" src=\"https://user-images.githubusercontent.com/43840561/97027259-6bedf780-1595-11eb-945d-5da882e2f9a0.png\">\n\nSound는 녹음 프로그램에서 얻은 현재 소리에 대한 인덱스, 소리 종류, 발생 시각, 소리에 대한 사용자 정보에 대한 데이터베이스 테이블 구성이다.\n\nSound_Class는 소리 종류에 대한 인덱스, 소리 종류명에 대한 데이터베이스 테이블 구성이다.\n\nUser는 사용자에 대한 인덱스, 이메일, 비밀번호, 솔트 값, 이름에 대한 데이터베이스 테이블 구성이다.\n\n## 🔖 ERD (Entity-Relationship Diagram)\n![image](https://user-images.githubusercontent.com/43840561/97026518-722fa400-1594-11eb-8254-efe8e331d9ed.png)\n\n\n## 📃 API Doc \n### [WIKI](https://github.com/CapstoneDesign2020/Soundee-Server/wiki)\n\n## 🧲 Dependencies\n```\n\"dependencies\": {\n  \"clean-css\": \"^4.2.3\",\n  \"constantinople\": \"^4.0.1\",\n  \"cookie-parser\": \"~1.4.4\",\n  \"crypto\": \"^1.0.1\",\n  \"debug\": \"~2.6.9\",\n  \"dotenv\": \"^8.2.0\",\n  \"express\": \"~4.16.1\",\n  \"express-session\": \"^1.17.1\",\n  \"http-errors\": \"~1.6.3\",\n  \"jade\": \"~1.11.0\",\n  \"jsonwebtoken\": \"^8.5.1\",\n  \"morgan\": \"~1.9.1\",\n  \"nodemailer\": \"^6.4.11\",\n  \"passport\": \"^0.4.1\",\n  \"passport-jwt\": \"^4.0.0\",\n  \"passport-local\": \"^1.0.0\",\n  \"promise-mysql\": \"^4.1.3\",\n  \"rand-token\": \"^1.0.1\"\n}\n ```\n",
+        "step": "PROGRESS",
+        "sos": false,
+        "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/4e2f68393ead426f8a066bdd3fa13b5e.png"
+    },
+    {
+        "author": {
+            "id": 5,
+            "nickname": "아마쮜",
+            "imageUrl": "https://dksykemwl00pf.cloudfront.net/fef2d999745c4ad2ad4311b8676ae769.jpeg"
+        },
+        "id": 15,
+        "title": "개쩌는 마찌의 지하철 미션",
+        "content": "꼬뜰린이랑 JPA로 지하철 미션 해보는 중이었어요\n죽이되든 밥이되든... 일단 해봤었슴다\n\n근데 JPA 너무 어려워요 ㅠ 도와주세여 헲",
+        "step": "PROGRESS",
+        "sos": true,
+        "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/41b00295e4334c01a5b86828dda5375b.jpeg"
+    }
+]
