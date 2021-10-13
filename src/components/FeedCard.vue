@@ -1,6 +1,11 @@
 <template>
     <div class="card feedcard">
-        <img :src="feedData.thumbnailUrl" class="card-img-top">
+        <div class="cardImg" v-if="thumbnailVideo"> 
+            <video :src="feedData.thumbnailUrl" controls style="height: 100%; width: 90%;" />
+        </div>
+        <div class="cardImg" v-else>
+            <img :src="feedData.thumbnailUrl" class="card-img-top"  style="height: 100%;  width: 90%;">
+        </div>
         <div class="card-body">
             <h5 class="card-title">{{feedData.title}}</h5>
             <p class="card-text">{{content_shorten}}</p>
@@ -55,6 +60,7 @@ export default {
     data() {
         return {
             content_shorten: this.shorten(this.feedData.content),
+            thumbnailVideo: this.checkIsVideo(this.feedData.thumbnailUrl),
             showUpdateModal: false,
             showDeleteModal: false,
         }
@@ -69,6 +75,13 @@ export default {
         sendDeleteToServer() {
             this.showDeleteModal=false
             console.log("axios delete");
+        },
+        checkIsVideo(content) {
+            let extension = content.split('.').pop();
+            if (extension == "mp4") {
+                return true;
+            }
+            return false;
         }
     }
 
@@ -76,7 +89,7 @@ export default {
 </script>
 
 <style>
-.card > img {
+.cardImg {
     width: 100%;
     height: 160px;
 }

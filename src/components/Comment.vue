@@ -2,7 +2,7 @@
     <Navbar/>
     <h4 class="mt-3">{{$store.state.backendUrl}} 의 댓글</h4>
     <div class="searchbar input-group mt-3 mb-4">
-        <input @input="search" type="text" class="form-control" placeholder="키워드로 검색" aria-label="키워드로 검색" aria-describedby="basic-addon2">
+        <input @input="search" type="text" class="form-control" placeholder="댓글 컨텐츠, 작성자, 생성날짜를 키워드로 검색">
     </div>
     <div class="feedCards mb-5">
         <CommentCard v-for="commentData in allCommentData" :key="commentData" :commentData="commentData"/>
@@ -21,13 +21,31 @@ export default {
         let allCommentData = ref([]);
         let allCommentDataOriginal = ref([]);
 
-        function search() {
-            // let searchWord = e.target.value;
-            let result = allCommentDataOriginal.value.filter(() => {
-                return true;
-                // return (CommentData.title.includes(searchWord) || CommentData.content.includes(searchWord));
+        function search(e) {
+            let searchWord = e.target.value;
+
+            let searchedComments = [];
+            let result = allCommentDataOriginal.value.filter((CommentData) => {
+
+                let commentsContainingSearchWord = CommentData.comments.filter((singleComment) => {
+                    return (singleComment.content.includes(searchWord) || 
+                            singleComment.createdAt.includes(searchWord) || 
+                            singleComment.author.nickname.includes(searchWord))
+                })
+
+                if (commentsContainingSearchWord.length > 0) {
+                    searchedComments.push(commentsContainingSearchWord);
+                    return true;
+                }
+                return false;
             })
-            this.allCommentData = [...result];
+
+            let copiedResult = JSON.parse(JSON.stringify(result));
+            for (let i=0; i<copiedResult.length; i++) {
+                copiedResult[i].comments = searchedComments[i];
+            }
+
+            this.allCommentData = copiedResult;
         }
 
         onMounted(() => {

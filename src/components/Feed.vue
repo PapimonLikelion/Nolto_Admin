@@ -2,7 +2,7 @@
     <Navbar/>
     <h4 class="mt-3">{{$store.state.backendUrl}} 의 피드</h4>
     <div class="searchbar input-group mt-3 mb-5">
-        <input @input="search" type="text" class="form-control" placeholder="키워드로 검색" aria-label="키워드로 검색" aria-describedby="basic-addon2">
+        <input @input="search" type="text" class="form-control" placeholder="피드 제목, 컨텐츠를 키워드로 검색">
     </div>
     <div class="feedCards">
         <FeedCard v-for="feedData in allFeedData" :key="feedData" :feedData="feedData"/>
