@@ -1,6 +1,6 @@
 <template>
     <Navbar/>
-    <h4 class="mt-3">{{$store.state.backendUrl}} 의 댓글</h4>
+    <h4 class="mt-3">{{$store.state.backendUrl}} 의 유저</h4>
     <div class="searchbar input-group mt-3 mb-5">
         <input @input="search" type="text" class="form-control" placeholder="키워드로 검색" aria-label="키워드로 검색" aria-describedby="basic-addon2">
     </div>

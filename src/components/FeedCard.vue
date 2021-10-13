@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <div class="card feedcard">
         <img :src="feedData.thumbnailUrl" class="card-img-top">
         <div class="card-body">
             <h5 class="card-title">{{feedData.title}}</h5>
@@ -81,9 +81,9 @@ export default {
     height: 160px;
 }
 
-.card {
+.feedcard {
     width: 270px;
-    margin: 30px;
+    margin: 15px;
 }
 
 </style>

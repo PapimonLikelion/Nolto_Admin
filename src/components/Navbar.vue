@@ -11,7 +11,7 @@
             <a class="nav-link active"><router-link to="/admin/feeds">피드</router-link></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" href="#">댓글</a>
+            <a class="nav-link active"><router-link to="/admin/comments">댓글</router-link></a>
             </li>
             <li class="nav-item">
             <a class="nav-link active"><router-link to="/admin/users">유저</router-link></a>
