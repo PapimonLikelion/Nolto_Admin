@@ -86,28 +86,4 @@ export default {
     margin: 30px;
 }
 
-.updateModal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
-    border-radius: 10px;
-    padding: 40px;
-    width: 65%;
-    background-color: rgb(228, 183, 69);
-}
-
-.deleteModal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
-    border-radius: 10px;
-    padding: 40px;
-    width: 500px;
-    color: white;
-    background-color:crimson;
-}
 </style>

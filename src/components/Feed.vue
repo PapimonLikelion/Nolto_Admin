@@ -1,6 +1,7 @@
 <template>
     <Navbar/>
-    <div class="searchbar input-group mt-5 mb-5">
+    <h4 class="mt-3">{{$store.state.backendUrl}} 의 피드</h4>
+    <div class="searchbar input-group mt-3 mb-5">
         <input @input="search" type="text" class="form-control" placeholder="키워드로 검색" aria-label="키워드로 검색" aria-describedby="basic-addon2">
     </div>
     <div class="feedCards">
