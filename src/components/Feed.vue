@@ -29,10 +29,10 @@ export default {
         }
 
         onMounted(() => {
-            axios.get('/feedData.json')
+            axios.get('https://nolto-dev.kro.kr/feeds/recent')
             .then((result) => {
-                allFeedData.value = result.data;
-                allFeedDataOriginal.value = [...result.data];
+                allFeedData.value = result.data.feeds;
+                allFeedDataOriginal.value = [...result.data.feeds];
             })
         })
 

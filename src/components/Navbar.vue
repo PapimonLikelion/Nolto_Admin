@@ -8,13 +8,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">피드</a>
+            <a class="nav-link active"><router-link to="/admin/feeds">피드</router-link></a>
             </li>
             <li class="nav-item">
             <a class="nav-link active" href="#">댓글</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" href="#">유저</a>
+            <a class="nav-link active"><router-link to="/admin/users">유저</router-link></a>
             </li>
         </ul>
         </div>
