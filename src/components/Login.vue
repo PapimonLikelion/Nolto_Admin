@@ -36,15 +36,18 @@ export default {
     },
     methods: {
         login() {
-            axios.post( this.$store.state.backendUrl + '/admin/login', {
-                id: this.id,
-                password: this.password
-            }).then((result) => {
-                this.$store.commit('loginAsAdmin', result.data.adminAccessToken);
-                this.$router.push('/admin/feeds')
-            }).catch(() => {
-                this.loginFailed();
-            })
+            axios
+                .post( this.$store.state.backendUrl + '/admin/login', {
+                    id: this.id,
+                    password: this.password
+                })
+                .then((result) => {
+                    this.$store.commit('loginAsAdmin', result.data.adminAccessToken);
+                    this.$router.push('/admin/feeds')
+                })
+                .catch(() => {
+                    this.loginFailed();
+                })
         },
         loginFailed() {
             this.loginFailedModalShow = true;

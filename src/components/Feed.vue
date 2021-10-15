@@ -5,7 +5,7 @@
         <input @input="search" type="text" class="form-control" placeholder="피드 제목, 컨텐츠를 키워드로 검색">
     </div>
     <div class="feedCards">
-        <FeedCard v-for="feedData in allFeedData" :key="feedData" :feedData="feedData"/>
+        <FeedCard v-for="feedData in allFeedData" :key="feedData" :feedData="feedData" @feedDeleted=deleteFeed($event) />
     </div>
 </template>
 
@@ -30,7 +30,19 @@ export default {
             this.allFeedData = [...result];
         }
 
-        onMounted(() => {
+        function deleteFeed(id) {
+            let updatedAllFeedData = allFeedData.value.filter((feedData) => {
+                return (feedData.id != id);
+            })
+            this.allFeedData = [...updatedAllFeedData];
+
+            let updatedAllFeedDataOriginal = allFeedDataOriginal.value.filter((feedData) => {
+                return (feedData.id != id);
+            })
+            this.allFeedDataOriginal = [...updatedAllFeedDataOriginal];
+        }
+
+        function getFeeds() {
             axios.get( 
                 store.state.backendUrl + '/admin/feeds', 
                 {
@@ -38,13 +50,20 @@ export default {
                         "Authorization" : "Bearer " + store.state.adminToken,
                     }
                 })
-            .then((result) => {
-                allFeedData.value = result.data;
-                allFeedDataOriginal.value = [...result.data];
-            })
+                .then((result) => {
+                    allFeedData.value = result.data;
+                    allFeedDataOriginal.value = [...result.data];
+                })
+                .catch((result) => {
+                    alert(result);
+                })
+        }
+
+        onMounted(() => {
+            getFeeds();
         })
 
-        return {allFeedData, search}
+        return {allFeedData, search, deleteFeed}
     },
     components: {
         Navbar,
