@@ -79,6 +79,5 @@ export default {
 .usercardbody > div {
   width: 100px;
   height: 60px;
-  border: 1px solid lightsteelblue;
 }
 </style>

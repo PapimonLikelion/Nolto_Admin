@@ -14,6 +14,7 @@ import Navbar from "./Navbar.vue";
 import FeedCard from "./FeedCard.vue";
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
+import store from '../store.js';
 
 export default {
     name: "feed",
@@ -30,10 +31,16 @@ export default {
         }
 
         onMounted(() => {
-            axios.get('https://nolto-dev.kro.kr/feeds/recent')
+            axios.get( 
+                store.state.backendUrl + '/admin/feeds', 
+                {
+                    headers: {
+                        "Authorization" : "Bearer " + store.state.adminToken,
+                    }
+                })
             .then((result) => {
-                allFeedData.value = result.data.feeds;
-                allFeedDataOriginal.value = [...result.data.feeds];
+                allFeedData.value = result.data;
+                allFeedDataOriginal.value = [...result.data];
             })
         })
 
