@@ -20,9 +20,6 @@
         <img :src="userData.imageUrl" style="width: 60px; height: 60px" />
       </div>
       <div>
-        <h6>{{ userData.notifications }}</h6>
-      </div>
-      <div>
         <h6>{{ userData.createdAt }}</h6>
       </div>
       <div>

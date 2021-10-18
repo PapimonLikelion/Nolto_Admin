@@ -11,7 +11,6 @@
         <p>socialId</p>
         <p>socialType</p>
         <p>image</p>
-        <p>notifications</p>
         <p>createdAt</p>
         <p>modifiedAt</p>
         <p>삭제버튼</p>
