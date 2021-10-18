@@ -3,6 +3,7 @@ import Login from "./components/Login.vue";
 import Feed from "./components/Feed.vue";
 import User from "./components/User.vue";
 import Comment from "./components/Comment.vue";
+import NotFound from "./components/NotFound.vue";
 import store from './store.js'
 
 const routes = [
@@ -36,7 +37,11 @@ const routes = [
                 return '/';
             }
         },
-    }
+    },
+    {
+        path: "/:anything(.*)",
+        component: NotFound,
+    },
 ]
 
 const router = createRouter({
