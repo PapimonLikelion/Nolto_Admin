@@ -93,10 +93,7 @@ export default {
         },
         checkIsVideo(content) {
             let extension = content.split('.').pop();
-            if (extension == "mp4") {
-                return true;
-            }
-            return false;
+            return (extension == "mp4");
         }
     }
 
