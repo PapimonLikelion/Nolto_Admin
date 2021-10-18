@@ -13,6 +13,13 @@ const store = createStore({
             state.loginStatus = true;
             state.adminToken = token;
         }, 
+        changeBackendUrl(state, api) {
+            if (api == "prod") {
+                state.backendUrl = "http://localhost:8080"
+            } else {
+                state.backendUrl = "https://nolto-dev.kro.kr"
+            }
+        }
     }
 })
 
