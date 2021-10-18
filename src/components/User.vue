@@ -16,7 +16,7 @@
         <p>삭제버튼</p>
     </div>
     <div class="userCards">
-        <UserCard v-for="userData in allUserData" :key="userData" :userData="userData"/>
+        <UserCard v-for="userData in allUserData" :key="userData" :userData="userData" @userDeleted=deleteUser($event) />
     </div>
 </template>
 
@@ -25,6 +25,7 @@ import Navbar from "./Navbar.vue";
 import UserCard from "./UserCard.vue";
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
+import store from '../store.js';
 
 export default {
     name: "user",
@@ -44,15 +45,35 @@ export default {
             this.allUserData = [...result];
         }
 
+        function deleteUser(id) {
+            let updatedAllUserData = allUserData.value.filter((feedData) => {
+                return (feedData.id != id);
+            })
+            this.allUserData = [...updatedAllUserData];
+
+            let updatedAllUserDataOriginal = allUserDataOriginal.value.filter((feedData) => {
+                return (feedData.id != id);
+            })
+            this.allUserDataOriginal = [...updatedAllUserDataOriginal];
+        }
+
         onMounted(() => {
-            axios.get('/userData.json')
+            axios.get(store.state.backendUrl + '/admin/users', 
+            {
+                headers: {
+                    "Authorization" : "Bearer " + store.state.adminToken,
+                }
+            })
             .then((result) => {
                 allUserData.value = result.data;
                 allUserDataOriginal.value = [...result.data];
             })
+            .catch((result) => {
+                alert(result);
+            })
         })
 
-        return {allUserData, search}
+        return {allUserData, deleteUser, search}
     },
     components: {
         Navbar,
