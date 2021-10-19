@@ -8,7 +8,7 @@
         </div>
         <ul class="comments list-group">
             <li class="commentDetails list-group-item" v-for="comment in commentData.comments" :key="comment">
-                <CommentListItem :comment="comment"/>
+                <CommentListItem :comment="comment" @commentDeleted="this.$emit('commentDeleted');" />
             </li>
         </ul>
     </div>
@@ -46,10 +46,5 @@ export default {
     width: 75%;
     overflow:hidden;
     overflow-y: scroll;
-}
-
-.commentDetails {
-    display: flex;
-    flex-direction: row;
 }
 </style>

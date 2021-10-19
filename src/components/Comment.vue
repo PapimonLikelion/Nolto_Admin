@@ -2,10 +2,10 @@
     <Navbar/>
     <h4 class="mt-3">{{$store.state.backendUrl}} 의 댓글</h4>
     <div class="searchbar input-group mt-3 mb-4">
-        <input @input="search" type="text" class="form-control" placeholder="댓글 컨텐츠, 작성자, 생성날짜를 키워드로 검색">
+        <input @input="search" type="text" class="form-control" placeholder="댓글 검색은 준비중입니다" disabled>
     </div>
     <div class="feedCards mb-5">
-        <CommentCard v-for="commentData in allCommentData" :key="commentData" :commentData="commentData"/>
+        <CommentCard v-for="commentData in allCommentData" :key="commentData" :commentData="commentData" @commentDeleted=deleteComment() />
     </div>
 </template>
 
@@ -14,6 +14,7 @@ import Navbar from "./Navbar.vue";
 import CommentCard from "./CommentCard.vue";
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
+import store from '../store.js';
 
 export default {
     name: "comment",
@@ -48,15 +49,32 @@ export default {
             this.allCommentData = copiedResult;
         }
 
+        function deleteComment() {
+            getFeeds();
+        }
+
+        function getFeeds() {
+            axios.get(
+                store.state.backendUrl + '/admin/comments', 
+                {
+                    headers: {
+                        "Authorization" : "Bearer " + store.state.adminToken,
+                    }
+                })
+                .then((result) => {
+                    allCommentData.value = result.data;
+                    allCommentDataOriginal.value = [...result.data];
+                })
+                .catch((result) => {
+                    alert(result);
+                })
+        }
+
         onMounted(() => {
-            axios.get('/commentData.json')
-            .then((result) => {
-                allCommentData.value = result.data;
-                allCommentDataOriginal.value = [...result.data];
-            })
+            getFeeds();
         })
 
-        return {allCommentData, search}
+        return {allCommentData, deleteComment, search}
     },
     components: {
         Navbar,

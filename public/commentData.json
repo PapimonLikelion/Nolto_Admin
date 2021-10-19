@@ -2,1416 +2,230 @@
   {
     "feed": {
       "author": {
-        "id": 20,
-        "nickname": "seovalue",
-        "imageUrl": "https://avatars.githubusercontent.com/u/48412963?v=4"
+        "id": 1,
+        "nickname": "미키",
+        "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
       },
-      "id": 24,
-      "title": "보고 또 보고 🐸",
-      "content": "보고 또 보고는 취준생, 학생을 위한 반복 학습 장려 서비스입니다.\n면접 준비는 보고 또 보고 😎\n",
-      "step": "COMPLETE",
-      "sos": false,
-      "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/db2c3f81db6e4fd4ae08c6a2411d012c.png"
-    },
-    "comments": [
-      {
-        "id": 254,
-        "content": "오오 프로젝트 구경하고 왔는데 정말 대단해요 \uD83D\uDC4F\uD83D\uDC4F 멋집 프로젝트 올려주셔서 감사합니다 !!!!!!! 배포된 프로젝트도 구경할 수 있게되면 또 놀러와주세요!!!",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-10-06T15:53:57",
-        "modified": false,
-        "author": {
-          "id": 5,
-          "nickname": "아맞지",
-          "imageUrl": "https://dksykemwl00pf.cloudfront.net/d40ffd64254a450dbed1622216f97ad5.jpeg"
-        }
-      },
-      {
-        "id": 252,
-        "content": "우왕 쿠뮤 이름이 너무 귀여워요~~! \uD83D\uDE06동생이 경희대생인데 알려줘야겠어요 ㅎㅎ 배포된 버전도 기대고 있을게요!! ",
-        "helper": true,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-10-04T23:46:39",
-        "modified": false,
-        "author": {
-          "id": 7,
-          "nickname": "zigsong",
-          "imageUrl": "https://dksykemwl00pf.cloudfront.net/f8fb8ee6d00e43a29989fccbab228559.png"
-        }
-      },
-      {
-        "id": 251,
-        "content": "오오 학교 커뮤니티 앱을 개발하시는 군요!!! ㅎㅎㅎ 멋진 프로젝트 잘 구경하고 갑니다~~!!  나중에 배포된 버전도 기대하고 있겠습니당 \uD83D\uDE06",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-10-04T13:07:49",
-        "modified": false,
-        "author": {
-          "id": 3,
-          "nickname": "포모",
-          "imageUrl": "https://dksykemwl00pf.cloudfront.net/8ac5dc7ebf824754b8ad61e203d33ebe.PNG"
-        }
-      },
-      {
-        "id": 249,
-        "content": "혹쉬 저희 프로젝트에 새로운 마이크로서비스 개발 관심 있으신분이 계시다면...ㄱㅣ다리구있겠습니다...ㅎㅎ",
-        "helper": false,
-        "likes": 4,
-        "liked": true,
-        "feedAuthor": true,
-        "createdAt": "2021-09-30T13:55:13",
-        "modified": false,
-        "author": {
-          "id": 43,
-          "nickname": "umi0410",
-          "imageUrl": "https://avatars.githubusercontent.com/u/33250725?v=4"
-        }
-      },
-      {
-        "id": 259,
-        "content": "화이팅입니다!!!",
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-10-13T14:38:45",
-        "modified": false,
-        "commentId": 249,
-        "author": {
-          "id": 1,
-          "nickname": "조엘",
-          "imageUrl": "https://avatars.githubusercontent.com/u/61370901?v=4"
-        }
-      }
-    ]
-  },
-  {
-    "feed": {
-      "author": {
-        "id": 25,
-        "nickname": "sihyung92",
-        "imageUrl": "https://avatars.githubusercontent.com/u/51393021?v=4"
-      },
-      "id": 25,
-      "title": "15분회고 스터디 프로젝트",
-      "content": "스터디를 편하게 하기 위한 프로젝트예요! 서버가 내려가서 죽었어요 ㅠ\nJPA로 포팅해주실 분 구합니다!\n사진은 제 백신예약 사진이에요",
+      "id": 1,
+      "title": "title1",
+      "content": "content1",
       "step": "PROGRESS",
       "sos": true,
-      "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/87288ec7f9d644d4ac6091c39222a015.png"
+      "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/KakaoTalk_Photo_2021-07-19-14-25-01.png"
     },
     "comments": [
       {
-        "id": 130,
-        "content": "내 백신정보 방송탈뻔",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": true,
-        "createdAt": "2021-09-17T16:12:36",
-        "modified": false,
-        "author": {
-          "id": 25,
-          "nickname": "sihyung92",
-          "imageUrl": "https://avatars.githubusercontent.com/u/51393021?v=4"
-        }
+        "comment": {
+          "id": 1,
+          "content": "첫 댓글",
+          "helper": false,
+          "likes": 0,
+          "liked": false,
+          "feedAuthor": true,
+          "createdAt": "2021-10-20T00:13:19.973",
+          "modified": false,
+          "author": {
+            "id": 1,
+            "nickname": "미키",
+            "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+          }
+        },
+        "replies": [
+          {
+            "id": 3,
+            "content": "첫 댓글의 대댓글111",
+            "helper": false,
+            "likes": 0,
+            "liked": false,
+            "feedAuthor": true,
+            "createdAt": "2021-10-20T00:13:19.981",
+            "modified": false,
+            "author": {
+              "id": 1,
+              "nickname": "미키",
+              "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+            }
+          },
+          {
+            "id": 4,
+            "content": "첫 댓글의 대댓글222",
+            "helper": false,
+            "likes": 0,
+            "liked": false,
+            "feedAuthor": true,
+            "createdAt": "2021-10-20T00:13:19.989",
+            "modified": false,
+            "author": {
+              "id": 1,
+              "nickname": "미키",
+              "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+            }
+          },
+          {
+            "id": 5,
+            "content": "첫 댓글의 대댓글333",
+            "helper": false,
+            "likes": 0,
+            "liked": false,
+            "feedAuthor": true,
+            "createdAt": "2021-10-20T00:13:19.989",
+            "modified": false,
+            "author": {
+              "id": 1,
+              "nickname": "미키",
+              "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+            }
+          }
+        ]
       },
       {
-        "id": 129,
-        "content": "아슬아슬 했네요",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": true,
-        "createdAt": "2021-09-17T16:12:28",
-        "modified": false,
-        "author": {
-          "id": 25,
-          "nickname": "sihyung92",
-          "imageUrl": "https://avatars.githubusercontent.com/u/51393021?v=4"
-        }
-      },
-      {
-        "id": 127,
-        "content": "멋지다 \uD83D\uDC4D\uD83D\uDC4D\uD83D\uDC4D",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-17T16:02:45",
-        "modified": false,
-        "author": {
-          "id": 38,
-          "nickname": "pkeugine",
-          "imageUrl": "https://avatars.githubusercontent.com/u/48251668?v=4"
-        }
-      },
-      {
-        "id": 100,
-        "content": "메인 드립니다",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-08-13T15:01:41",
-        "modified": false,
-        "author": {
-          "id": 5,
-          "nickname": "아맞지",
-          "imageUrl": "https://dksykemwl00pf.cloudfront.net/d40ffd64254a450dbed1622216f97ad5.jpeg"
-        }
-      },
-      {
-        "id": 97,
-        "content": "백신예약 축하드려요!",
-        "helper": true,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-08-13T14:57:31",
-        "modified": false,
-        "author": {
-          "id": 28,
-          "nickname": "dusdn1702",
-          "imageUrl": "https://avatars.githubusercontent.com/u/43775108?v=4"
-        }
-      },
-      {
-        "id": 96,
-        "content": "오예 저도 이거 했어유",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-08-13T14:56:59",
-        "modified": false,
-        "author": {
-          "id": 33,
-          "nickname": "da-nyee",
-          "imageUrl": "https://avatars.githubusercontent.com/u/50176238?v=4"
-        }
-      },
-      {
-        "id": 90,
-        "content": "옆에서 열심히 응원할게요!",
-        "helper": true,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-08-13T14:52:41",
-        "modified": false,
-        "author": {
-          "id": 24,
-          "nickname": "sunhpark42",
-          "imageUrl": "https://avatars.githubusercontent.com/u/67677561?v=4"
-        }
-      },
-      {
-        "id": 89,
-        "content": "저도 할래용 ",
-        "helper": true,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-08-13T14:52:30",
-        "modified": false,
-        "author": {
-          "id": 30,
-          "nickname": "Livenow14",
-          "imageUrl": "https://avatars.githubusercontent.com/u/48986787?v=4"
-        }
-      },
-      {
-        "id": 81,
-        "content": "멋진 프로젝트네요!",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-08-13T14:50:48",
-        "modified": false,
-        "author": {
-          "id": 3,
-          "nickname": "포모",
-          "imageUrl": "https://dksykemwl00pf.cloudfront.net/8ac5dc7ebf824754b8ad61e203d33ebe.PNG"
-        }
-      },
-      {
-        "id": 80,
-        "content": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 갑자기 백신예약 사진이요? \uD83E\uDD14\uD83E\uDD23",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-08-13T14:50:24",
-        "modified": false,
-        "author": {
-          "id": 11,
-          "nickname": "권세진",
-          "imageUrl": "https://lh3.googleusercontent.com/a/AATXAJwmuC9PsHTzu1Zft2XqH3jRBx1gSmeEOlmFRIni=s96-c"
-        }
-      },
-      {
-        "id": 78,
-        "content": "백신 부럽네요..",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-08-13T14:50:13",
-        "modified": false,
-        "author": {
-          "id": 23,
-          "nickname": "박민영(1)",
-          "imageUrl": "https://lh3.googleusercontent.com/a/AATXAJywAH94yi46DGfXFR0T_pt9dgvjsR9ipeAWaJLA=s96-c"
-        }
+        "comment": {
+          "id": 2,
+          "content": "2등 댓글",
+          "helper": false,
+          "likes": 0,
+          "liked": false,
+          "feedAuthor": true,
+          "createdAt": "2021-10-20T00:13:19.981",
+          "modified": false,
+          "author": {
+            "id": 1,
+            "nickname": "미키",
+            "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+          }
+        },
+        "replies": [
+          {
+            "id": 6,
+            "content": "2등 댓글의 대댓글111",
+            "helper": false,
+            "likes": 0,
+            "liked": false,
+            "feedAuthor": true,
+            "createdAt": "2021-10-20T00:13:19.989",
+            "modified": false,
+            "author": {
+              "id": 1,
+              "nickname": "미키",
+              "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+            }
+          }
+        ]
       }
     ]
   },
   {
     "feed": {
       "author": {
-        "id": 7,
-        "nickname": "zigsong",
-        "imageUrl": "https://dksykemwl00pf.cloudfront.net/f8fb8ee6d00e43a29989fccbab228559.png"
+        "id": 1,
+        "nickname": "미키",
+        "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
       },
-      "id": 3,
-      "title": "아진짜요? 토이게임",
-      "content": "2020년에 p5js와 ml로 만든 프로젝트입니다\n제가 팀장이었어요\n저만 일했어요\n우테코에서는 함께 일해서 행복해요!",
-      "step": "PROGRESS",
+      "id": 2,
+      "title": "title2",
+      "content": "content2",
+      "step": "COMPLETE",
       "sos": false,
-      "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/8c76a083179b4e3b8e1171048e3ae026.png"
+      "thumbnailUrl": "https://dksykemwl00pf.cloudfront.net/KakaoTalk_Photo_2021-07-19-14-25-01.png"
     },
     "comments": [
       {
-        "id": 246,
-        "content": "댓글 112개... 이건 귀하군요",
-        "helper": true,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T16:43:41",
-        "modified": false,
-        "author": {
-          "id": 1,
-          "nickname": "조엘",
-          "imageUrl": "https://avatars.githubusercontent.com/u/61370901?v=4"
-        }
-      },
-      {
-        "id": 231,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:54",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 230,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:54",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 229,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:54",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 228,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:53",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 227,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:53",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 226,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:53",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 225,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:52",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 224,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:52",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 223,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:52",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 222,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:52",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 221,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:51",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 220,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:51",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 219,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:51",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 218,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:51",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 217,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:50",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 216,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:50",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 215,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:50",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 214,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:50",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 213,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:49",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 212,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:49",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 211,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:49",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 210,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:49",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 209,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:49",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 208,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:48",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 207,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:48",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 206,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:48",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 205,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:48",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 204,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:47",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 203,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:47",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 202,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:47",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 201,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:47",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 200,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:47",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 199,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:46",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 198,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:46",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 197,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:46",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 196,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:46",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 195,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:45",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 194,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:45",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 193,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:45",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 192,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:45",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 191,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:45",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 190,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:44",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 189,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:44",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 188,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:44",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 187,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:44",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 186,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:43",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 185,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:43",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 184,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:43",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 183,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:43",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 182,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:43",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 181,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:42",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 180,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:42",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 179,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:42",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 178,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:42",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 177,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:42",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 176,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:42",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 175,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:41",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 174,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:41",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 173,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:41",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 172,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:41",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 171,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:41",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 170,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:40",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 169,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:40",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 168,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:40",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 167,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:40",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 166,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:40",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 165,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:40",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 164,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:39",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 163,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:39",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 162,
-        "content": "f",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:46:39",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 136,
-        "content": "쏘쏘",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:43:07",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 135,
-        "content": "밷",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:43:02",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 134,
-        "content": "굿",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": false,
-        "createdAt": "2021-09-23T11:41:45",
-        "modified": false,
-        "author": {
-          "id": 42,
-          "nickname": "Joy Kim",
-          "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiWJt5YJ1io0eG50nHvkXMNgk61BBQn--BdsWb28w=s96-c"
-        }
-      },
-      {
-        "id": 133,
-        "content": "ㅇㅅㅇ",
-        "helper": false,
-        "likes": 0,
-        "liked": false,
-        "feedAuthor": true,
-        "createdAt": "2021-09-23T11:41:10",
-        "modified": false,
-        "author": {
-          "id": 41,
-          "nickname": "Joyykim",
-          "imageUrl": "https://avatars.githubusercontent.com/u/56679885?v=4"
-        }
+        "comment": {
+          "id": 7,
+          "content": "피드2 첫 댓글",
+          "helper": false,
+          "likes": 0,
+          "liked": false,
+          "feedAuthor": true,
+          "createdAt": "2021-10-20T00:13:19.989",
+          "modified": false,
+          "author": {
+            "id": 1,
+            "nickname": "미키",
+            "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+          }
+        },
+        "replies": [
+          {
+            "id": 9,
+            "content": "피드2 첫 댓글의 대댓글1",
+            "helper": false,
+            "likes": 0,
+            "liked": false,
+            "feedAuthor": true,
+            "createdAt": "2021-10-20T00:13:19.997",
+            "modified": false,
+            "author": {
+              "id": 1,
+              "nickname": "미키",
+              "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+            }
+          },
+          {
+            "id": 10,
+            "content": "피드2 첫 댓글의 대댓글2",
+            "helper": false,
+            "likes": 0,
+            "liked": false,
+            "feedAuthor": true,
+            "createdAt": "2021-10-20T00:13:19.997",
+            "modified": false,
+            "author": {
+              "id": 1,
+              "nickname": "미키",
+              "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+            }
+          },
+          {
+            "id": 11,
+            "content": "피드2 첫 댓글의 대댓글3",
+            "helper": false,
+            "likes": 0,
+            "liked": false,
+            "feedAuthor": true,
+            "createdAt": "2021-10-20T00:13:19.997",
+            "modified": false,
+            "author": {
+              "id": 1,
+              "nickname": "미키",
+              "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+            }
+          }
+        ]
+      },
+      {
+        "comment": {
+          "id": 8,
+          "content": "피드2 두번째 댓글",
+          "helper": false,
+          "likes": 0,
+          "liked": false,
+          "feedAuthor": true,
+          "createdAt": "2021-10-20T00:13:19.997",
+          "modified": false,
+          "author": {
+            "id": 1,
+            "nickname": "미키",
+            "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+          }
+        },
+        "replies": [
+          {
+            "id": 12,
+            "content": "피드2 두번째 댓글의 대댓글",
+            "helper": false,
+            "likes": 0,
+            "liked": false,
+            "feedAuthor": true,
+            "createdAt": "2021-10-20T00:13:20.005",
+            "modified": false,
+            "author": {
+              "id": 1,
+              "nickname": "미키",
+              "imageUrl": "https://dksykemwl00pf.cloudfront.net/amazzi.jpeg"
+            }
+          }
+        ]
       }
     ]
   }
