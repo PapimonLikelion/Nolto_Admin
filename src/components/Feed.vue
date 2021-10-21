@@ -5,7 +5,7 @@
         <input @input="search" type="text" class="form-control" placeholder="피드 제목, 컨텐츠를 키워드로 검색">
     </div>
     <div class="feedCards">
-        <FeedCard v-for="feedData in allFeedData" :key="feedData" :feedData="feedData" @feedDeleted=deleteFeed($event) />
+        <FeedCard v-for="feedData in allFeedData" :key="feedData" :feedData="feedData" @feedDeleted=deleteFeed($event)  @feedUpdated=getFeeds() />
     </div>
 </template>
 
@@ -63,7 +63,7 @@ export default {
             getFeeds();
         })
 
-        return {allFeedData, search, deleteFeed}
+        return {allFeedData, search, deleteFeed, getFeeds}
     },
     components: {
         Navbar,

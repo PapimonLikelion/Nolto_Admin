@@ -2,46 +2,23 @@
     <div>
         <div class="card feedcard">
             <div class="cardImg" v-if="thumbnailVideo"> 
-                <video :src="feedData.thumbnailUrl" controls style="height: 100%; width: 90%;" />
+                <video :src="feedData.thumbnailUrl" controls class="thumbnailImage" />
             </div>
             <div class="cardImg" v-else>
-                <img :src="feedData.thumbnailUrl" class="card-img-top"  style="height: 100%;  width: 90%;">
+                <img :src="feedData.thumbnailUrl" class="card-img-top thumbnailImage">
             </div>
             <div class="card-body">
                 <h5 class="card-title">{{feedData.title}}</h5>
-                <p class="card-text">{{content_shorten}}</p>
+                <p class="card-text mb-2">{{content_shorten}}</p>
+                <p class="card-text mb-0">views: {{feedData.views}}</p>
+                <p class="card-text mb-3">likes: {{feedData.likes}}</p>
                 <button class="btn btn-warning" @click="showUpdateModal=true">수정하기</button>
                 <button class="btn btn-danger" @click="showDeleteModal=true">삭제하기</button>
             </div>
         </div>
 
         <div class="updateModal" v-if="showUpdateModal">
-            <img class="mb-2" :src="feedData.thumbnailUrl" style="width: 200px; height: 200px;">
-            <input type="file" id="chooseFile" name="chooseFile" accept="image/*">
-            <h5 class="mb-4">author: {{feedData.author.nickname}}</h5>
-
-            <span class="input-group-text" id="basic-addon1">Title</span>
-            <input type="text" class="mb-2 form-control" :value="feedData.title" aria-label="Username" aria-describedby="basic-addon1">
-
-            <span class="input-group-text">Content</span>
-            <textarea class="mb-2 form-control" aria-label="With textarea" :value="feedData.content" style="height: 100px"></textarea>
-
-            <label class="input-group-text" for="inputGroupSelect01">Step</label>
-            <select class="mb-2 form-select" id="inputGroupSelect01">
-                <option selected>{{feedData.step}}</option>
-                <option value="PROGRESS">PROGRESS</option>
-                <option value="COMPLETE">COMPLETE</option>
-            </select>
-
-            <label class="input-group-text" for="inputGroupSelect01">Sos</label>
-            <select class="mb-5 form-select" id="inputGroupSelect01">
-                <option selected>{{feedData.sos}}</option>
-                <option value="PROGRESS">true</option>
-                <option value="COMPLETE">false</option>
-            </select>
-
-            <button class="btn btn-outline-dark" @click="sendUpdateToServer">예. 수정합니다.</button>
-            <button class="btn btn-outline-dark" @click="showUpdateModal=false">아니요. 취소합니다</button>
+            <FeedUpdateModal :feedData="feedData" @updateModalClose="showUpdateModal=false" @feedUpdated="this.$emit('feedUpdated')" />
         </div>
 
         <div class="deleteModal" v-if="showDeleteModal">
@@ -55,6 +32,7 @@
 
 <script>
 import axios from 'axios';
+import FeedUpdateModal from './FeedUpdateModal.vue';
 
 export default {
     name: "feedcard",
@@ -69,6 +47,9 @@ export default {
             showDeleteModal: false,
         }
     },
+    components: {
+        FeedUpdateModal,
+    },
     methods: {
         shorten(content) {
             if (content.length > 70) {
@@ -76,8 +57,12 @@ export default {
             }
             return content;
         }, 
+        checkIsVideo(content) {
+            let extension = content.split('.').pop();
+            return (extension == "mp4");
+        },
         sendDeleteToServer() {
-            this.showDeleteModal=false
+            this.showDeleteModal = false
             axios
                 .delete( this.$store.state.backendUrl + '/admin/feeds/' + this.feedData.id, {
                     headers: {
@@ -90,10 +75,6 @@ export default {
                 .catch((error) => {
                     alert(error.response.data.message);
                 })
-        },
-        checkIsVideo(content) {
-            let extension = content.split('.').pop();
-            return (extension == "mp4");
         }
     }
 
@@ -103,7 +84,7 @@ export default {
 <style>
 .cardImg {
     width: 100%;
-    height: 160px;
+    height: 105px;
 }
 
 .feedcard {
@@ -111,4 +92,8 @@ export default {
     margin: 15px;
 }
 
+.thumbnailImage {
+    height: 100px; 
+    width: 100px;
+}
 </style>
