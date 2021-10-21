@@ -12,7 +12,7 @@ const store = createStore({
         loginAsAdmin(state, token) {
             state.loginStatus = true;
             state.adminToken = token;
-        }, 
+        },
         changeBackendUrl(state, api) {
             if (api == "prod") {
                 state.backendUrl = "https://nolto.kro.kr"

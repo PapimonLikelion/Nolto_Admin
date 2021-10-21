@@ -28,7 +28,7 @@ const routes = [
                 return '/';
             }
         },
-    }, 
+    },
     {
         path: "/admin/comments",
         component: Comment,

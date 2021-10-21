@@ -4,10 +4,9 @@
 
 <script>
 export default {
-  name: 'App',
-  components: {
-  }
-}
+  name: "App",
+  components: {},
+};
 </script>
 
 <style>
@@ -20,15 +19,15 @@ export default {
 }
 
 .deleteModal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
-    border-radius: 10px;
-    padding: 40px;
-    width: 500px;
-    color: white;
-    background-color:crimson;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  border-radius: 10px;
+  padding: 40px;
+  width: 500px;
+  color: white;
+  background-color: crimson;
 }
 </style>

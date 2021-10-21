@@ -27,7 +27,7 @@
           <h6>{{ userData.modifiedAt }}</h6>
         </div>
         <div>
-          <button class="btn btn-danger" @click="showDeleteModal=true">
+          <button class="btn btn-danger" @click="showDeleteModal = true">
             삭제하기
           </button>
         </div>
@@ -35,16 +35,20 @@
     </div>
 
     <div class="deleteModal" v-if="showDeleteModal">
-        <h4>{{ userData.nickname }}</h4>
-        <p>정말로 삭제하시겠습니까?</p>
-        <button class="btn btn-outline-dark" @click="sendDeleteToServer">예. 삭제합니다.</button>
-        <button class="btn btn-outline-dark" @click="showDeleteModal=false">아니요. 취소합니다</button>
+      <h4>{{ userData.nickname }}</h4>
+      <p>정말로 삭제하시겠습니까?</p>
+      <button class="btn btn-outline-dark" @click="sendDeleteToServer">
+        예. 삭제합니다.
+      </button>
+      <button class="btn btn-outline-dark" @click="showDeleteModal = false">
+        아니요. 취소합니다
+      </button>
     </div>
   </div>
 </template>
 
 <script>
-import axios from 'axios';
+import axios from "axios";
 
 export default {
   name: "usercard",
@@ -52,27 +56,30 @@ export default {
     userData: Object,
   },
   data() {
-      return {
-          showDeleteModal: false,
-      }
+    return {
+      showDeleteModal: false,
+    };
   },
   methods: {
-      sendDeleteToServer() {
-          this.showDeleteModal = false;
-          axios
-              .delete( this.$store.state.backendUrl + '/admin/users/' + this.userData.id, {
-                  headers: {
-                      "Authorization" : "Bearer " + this.$store.state.adminToken,
-                  }
-              })
-              .then(() => {
-                  this.$emit('userDeleted', this.userData.id);
-              })
-              .catch((error) => {
-                  alert(error.response.data.message);
-              })
-      }
-  }
+    sendDeleteToServer() {
+      this.showDeleteModal = false;
+      axios
+        .delete(
+          this.$store.state.backendUrl + "/admin/users/" + this.userData.id,
+          {
+            headers: {
+              Authorization: "Bearer " + this.$store.state.adminToken,
+            },
+          }
+        )
+        .then(() => {
+          this.$emit("userDeleted", this.userData.id);
+        })
+        .catch((error) => {
+          alert(error.response.data.message);
+        });
+    },
+  },
 };
 </script>
 
