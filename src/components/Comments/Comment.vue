@@ -10,11 +10,11 @@
 </template>
 
 <script>
-import Navbar from "./Navbar.vue";
-import CommentCard from "./CommentCard.vue";
+import Navbar from "../Navbar.vue";
+import CommentCard from "../Comments/CommentCard.vue";
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
-import store from '../store.js';
+import store from '../../store.js';
 
 export default {
     name: "comment",

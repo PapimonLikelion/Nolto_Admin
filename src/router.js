@@ -1,8 +1,8 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Login from "./components/Login.vue";
-import Feed from "./components/Feed.vue";
-import User from "./components/User.vue";
-import Comment from "./components/Comment.vue";
+import Feed from "./components/Feeds/Feed.vue";
+import User from "./components/Users/User.vue";
+import Comment from "./components/Comments/Comment.vue";
 import NotFound from "./components/NotFound.vue";
 import store from './store.js'
 

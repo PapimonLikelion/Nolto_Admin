@@ -21,11 +21,11 @@
 </template>
 
 <script>
-import Navbar from "./Navbar.vue";
-import UserCard from "./UserCard.vue";
+import Navbar from "../Navbar.vue";
+import UserCard from "../Users/UserCard.vue";
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
-import store from '../store.js';
+import store from '../../store.js';
 
 export default {
     name: "user",

@@ -10,11 +10,11 @@
 </template>
 
 <script>
-import Navbar from "./Navbar.vue";
+import Navbar from "../Navbar.vue";
 import FeedCard from "./FeedCard.vue";
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
-import store from '../store.js';
+import store from '../../store.js';
 
 export default {
     name: "feed",
