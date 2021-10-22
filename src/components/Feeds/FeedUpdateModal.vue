@@ -57,7 +57,7 @@
 
 <script>
 import axios from "axios";
-import Tech from "./Tech.vue";
+import Tech from "./FeedTech.vue";
 
 export default {
   name: "feedupdatemodal",

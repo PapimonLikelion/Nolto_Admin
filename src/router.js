@@ -4,6 +4,7 @@ import Feed from "./components/Feeds/Feed.vue";
 import User from "./components/Users/User.vue";
 import Comment from "./components/Comments/Comment.vue";
 import NotFound from "./components/NotFound.vue";
+import TechBoard from "./components/Techs/TechBoard.vue";
 import store from './store.js'
 
 const routes = [
@@ -32,6 +33,15 @@ const routes = [
     {
         path: "/admin/comments",
         component: Comment,
+        beforeEnter: () => {
+            if (store.state.loginStatus == false) {
+                return '/';
+            }
+        },
+    },
+    {
+        path: "/admin/techs",
+        component: TechBoard,
         beforeEnter: () => {
             if (store.state.loginStatus == false) {
                 return '/';

@@ -32,6 +32,11 @@
             <a class="nav-link active"
               ><router-link to="/admin/users">유저</router-link></a
             >
+          </li>          
+          <li class="nav-item">
+            <a class="nav-link active"
+              ><router-link to="/admin/techs">기술스택</router-link></a
+            >
           </li>
         </ul>
       </div>

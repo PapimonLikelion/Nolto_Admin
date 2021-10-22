@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <TechButton
+      <FeedTechButton
         v-for="tech in currentTechs"
         :key="tech"
         :tech="tech"
@@ -33,15 +33,15 @@
 
 <script>
 import axios from "axios";
-import TechButton from "./TechButton.vue";
+import FeedTechButton from "./FeedTechButton.vue";
 
 export default {
-  name: "tech",
+  name: "feedtech",
   props: {
     techs: Array,
   },
   components: {
-    TechButton,
+    FeedTechButton,
   },
   data() {
     return {

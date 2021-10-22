@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "techbutton",
+  name: "feedtechbutton",
   props: {
     tech: Object,
   },

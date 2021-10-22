@@ -114,5 +114,8 @@ export default {
   margin-right: 10%;
   display: flex;
   flex-direction: column;
+  height: 71vh !important;
+  overflow-y: scroll;
+  overflow-x: clip;
 }
 </style>
