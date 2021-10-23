@@ -3,7 +3,7 @@ import { createStore } from 'vuex'
 const store = createStore({
     state() {
         return {
-            backendUrl: "http://localhost:8080",
+            backendUrl: "https://nolto.kro.kr",
             loginStatus: false,
             adminToken: "",
         }
@@ -15,7 +15,7 @@ const store = createStore({
         },
         changeBackendUrl(state, api) {
             if (api == "prod") {
-                state.backendUrl = "http://localhost:8080"
+                state.backendUrl = "https://nolto.kro.kr"
             } else {
                 state.backendUrl = "https://nolto-dev.kro.kr"
             }

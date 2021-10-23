@@ -18,7 +18,13 @@
           <h6>{{ userData.socialType }}</h6>
         </div>
         <div>
-          <img :src="userData.imageUrl" style="width: 60px; height: 60px" />
+          <video
+            v-if="imageVideo"
+            :src="userData.imageUrl"
+            class="usercardimage"
+            controls
+          />
+          <img v-else :src="userData.imageUrl" class="usercardimage" />
         </div>
         <div>
           <h6>{{ userData.createdAt }}</h6>
@@ -58,6 +64,7 @@ export default {
   data() {
     return {
       showDeleteModal: false,
+      imageVideo: this.checkIsVideo(this.userData.imageUrl),
     };
   },
   methods: {
@@ -79,6 +86,10 @@ export default {
           alert(error.response.data.message);
         });
     },
+    checkIsVideo(content) {
+      let extension = content.split(".").pop();
+      return extension == "mp4";
+    },
   },
 };
 </script>
@@ -96,6 +107,11 @@ export default {
 
 .usercardbody > div {
   width: 100px;
+  height: 60px;
+}
+
+.usercardimage {
+  width: 60px;
   height: 60px;
 }
 </style>

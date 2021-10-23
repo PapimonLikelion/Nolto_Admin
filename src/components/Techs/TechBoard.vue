@@ -1,6 +1,6 @@
 <template>
   <Navbar />
-  <h4 class="mt-3">{{ $store.state.backendUrl }} 의 기술스택</h4>
+  <h4 class="mt-3">{{ $store.state.backendUrl }} 의 기술 스택</h4>
   <div class="searchbar input-group mt-3 mb-5">
     <input
       @input="search"

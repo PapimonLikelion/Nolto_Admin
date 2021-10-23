@@ -1,11 +1,17 @@
 <template>
   <div>
-    <img class="mb-2 updateModalOriginalImage" :src="thumbnailUrl" />
-    <input
-      type="file"
-      accept="image/*"
-      @change="changedThumbnail"
-    />
+    <div v-if="thumbnailVideo">
+      <video
+        class="mb-2 updateModalOriginalImage"
+        controls
+        :src="thumbnailUrl"
+      />
+    </div>
+    <div v-else>
+      <img class="mb-2 updateModalOriginalImage" :src="thumbnailUrl" />
+    </div>
+
+    <input type="file" accept="image/*" @change="changedThumbnail" />
 
     <h5 class="mb-4">author: {{ author.nickname }}</h5>
 
@@ -77,6 +83,7 @@ export default {
       techs: this.feedData.techs,
       thumbnail: undefined,
       techIds: undefined,
+      thumbnailVideo: this.checkIsVideo(this.feedData.thumbnailUrl),
     };
   },
   components: {
@@ -92,6 +99,10 @@ export default {
     },
     changedTechs(changedTechs) {
       this.techs = [...changedTechs];
+    },
+    checkIsVideo(content) {
+      let extension = content.split(".").pop();
+      return extension == "mp4";
     },
     sendUpdateToServer() {
       var updateFeedData = this.makeUpdateFormData();

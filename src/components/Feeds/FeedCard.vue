@@ -2,7 +2,11 @@
   <div>
     <div class="card feedcard">
       <div class="cardImg" v-if="thumbnailVideo">
-        <video :src="feedData.thumbnailUrl" controls class="thumbnailImage" />
+        <video
+          :src="feedData.thumbnailUrl"
+          controls
+          class="thumbnailImage"
+        />
       </div>
       <div class="cardImg" v-else>
         <img :src="feedData.thumbnailUrl" class="card-img-top thumbnailImage" />

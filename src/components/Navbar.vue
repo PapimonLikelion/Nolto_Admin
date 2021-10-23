@@ -35,7 +35,7 @@
           </li>          
           <li class="nav-item">
             <a class="nav-link active"
-              ><router-link to="/admin/techs">기술스택</router-link></a
+              ><router-link to="/admin/techs">기술 스택</router-link></a
             >
           </li>
         </ul>
