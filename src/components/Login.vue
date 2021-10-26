@@ -20,7 +20,7 @@
       </div>
       <div class="input-group mb-3 input-value">
         <span class="input-group-text input-text">PW</span>
-        <form style="width: 295px">
+        <form @submit.prevent="loginRequest" style="width: 295px">
           <input
             v-model="password"
             type="password"
@@ -31,7 +31,7 @@
       </div>
     </div>
     <button
-      @click="login"
+      @click="loginRequest"
       type="button"
       class="btn btn-outline-secondary input-value"
     >
@@ -65,7 +65,7 @@ export default {
     },
   },
   methods: {
-    login() {
+    loginRequest() {
       axios
         .post(this.$store.state.backendUrl + "/admin/login", {
           id: this.id,
