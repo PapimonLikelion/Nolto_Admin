@@ -45,7 +45,7 @@ export default {
 }
 
 .commentCardBody {
-  overflow-y: hidden;
+  overflow-y: overlay;
 }
 
 .commentFeed {
