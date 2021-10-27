@@ -1,7 +1,7 @@
 <template>
   <div class="commentCard mt-5">
     <div class="commentFeed card">
-      <div class="card-body">
+      <div class="card-body commentCardBody">
         <h5 class="card-title">{{ commentData.feed.title }}</h5>
         <p class="card-text">{{ commentData.feed.content }}</p>
       </div>
@@ -42,6 +42,10 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.commentCardBody {
+  overflow-y: hidden;
 }
 
 .commentFeed {
