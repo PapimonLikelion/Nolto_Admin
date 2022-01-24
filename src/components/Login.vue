@@ -11,7 +11,7 @@
       <div class="mt-4 mb-3">
         <select v-model="selectedApi" class="form-select">
           <option value="prod">PROD</option>
-          <option value="dev">DEV</option>
+          <!-- <option value="dev">DEV</option> -->
         </select>
       </div>
       <div class="input-group mb-3 input-value">
